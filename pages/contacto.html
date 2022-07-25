@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="../css/styles.css">  
+    <title>Proyecto</title>
+</head>
+<body>
+    <header>
+
+        <h1 class="nombreempresa">Salon Don Miguel</h1> 
+
+        <div>
+            <img class="logo" src="../img/LOGO.jpg" alt="Logo empresa">
+                        
+        </div>                         
+           
+    </header>
+        
+    <div class="navegacion">
+        <nav>
+            <ul class="listanavegacion">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./quinessomos.html">Quines somos</a>
+                </li>
+                <li>
+                    <a href="./galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./ubicacion.html">Ubicacion</a>
+                </li>
+            </ul>
+            
+        </nav>
+    </div>
+
+
+    <section>
+        <h1>Contacto</h1>
+
+        <form>
+            <fieldset>
+                <legend>Ingresá tus datos</legend>
+
+                <div class="datos">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre completo" required>
+                </div>
+
+                <div>
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" placeholder="Ingresa tu email">
+                </div>
+
+                <div>
+                    <label for="telefono">Número Telefónico</label>
+                    <input type="tel" id="telefono" placeholder="Ingresa tu telefono">
+                </div>
+
+                <div>
+                    <p>¿Acepatas los términos y condiciones?</p>
+                    <label for="si"></label>
+                    <input type="radio" name="condiciones" id="si">
+
+                    <label for="no"></label>
+                    <input type="radio" name="condiciones" id="no">
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar Formulario">
+                    <input type="reset" value="Limpiar Formulario">
+                </div>                
+
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https:/www.facebook.com">Ir a Facebook</a>
+            </li>
+
+            <li>
+                <a href="https:/www.Instagram.com">Ir a Instagram</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
